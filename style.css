@@ -1,0 +1,24 @@
+#main {
+  background-color: #000001;
+  color: #db6202;
+}
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#img-caption {
+  text-align: center;
+  color: aliceblue;
+  font-style: italic;
+  margin: 0;
+}
+#title {
+  padding: 0px;
+  display: block;
+  text-align: center;
+}
+#
