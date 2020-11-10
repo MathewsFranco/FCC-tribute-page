@@ -1,6 +1,7 @@
 #main {
-  background-color: #000001;
-  color: #db6202;
+  background-color: #bdbaa6;
+  color: #373432;
+  padding: 35px;
 }
 #image {
   width: 100%;
@@ -12,13 +13,38 @@
 }
 #img-caption {
   text-align: center;
-  color: aliceblue;
   font-style: italic;
   margin: 0;
+  padding-bottom: 55px;
 }
 #title {
   padding: 0px;
   display: block;
   text-align: center;
+  font-size: 300%;
 }
-#
+#tribute-info {
+  box-shadow: 5px 5px;
+  padding: 15px;
+  text-align: justify;
+  background-color: #a09d88;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 35px;
+}
+#tribute-info h2 {
+  text-align: center;
+}
+#tribute-info li {
+  padding-bottom: 8px;
+}
+#footer {
+  text-align: center;
+  font-style: italic;
+}
+@media (max-width: 580px) {
+  #tribute-info {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
